@@ -1,0 +1,8 @@
+[package]
+name = "typoraos-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+comrak = "0.28"
+ipc-contracts = { path = "../ipc-contracts" }

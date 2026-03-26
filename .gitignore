@@ -1,1 +1,12 @@
 /idea
+/target
+**/target
+
+# Tauri artifacts
+src-tauri/gen
+apps/desktop/src-tauri/gen
+
+# Editor and OS noise
+.DS_Store
+*.swp
+*.swo

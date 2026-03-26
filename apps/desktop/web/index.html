@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TyporaOS</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <h1>TyporaOS</h1>
+        <p>Rust-first markdown workspace</p>
+      </header>
+
+      <section class="editor-wrap">
+        <label for="editor">Markdown</label>
+        <textarea id="editor" spellcheck="false"># TyporaOS\n\nStart writing markdown here.</textarea>
+      </section>
+
+      <section class="preview-wrap">
+        <div class="preview-head">
+          <h2>Preview</h2>
+          <div id="stats">0 words • 0 chars • 0 lines</div>
+        </div>
+        <article id="preview"></article>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
